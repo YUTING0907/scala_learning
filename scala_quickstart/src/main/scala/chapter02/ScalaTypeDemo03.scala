@@ -17,7 +17,7 @@ object ScalaTypeDemo03 {
     // 报错，因为超过了Int的范围
     //var k = 9223372036854775807
     var num1: Float = 2.2345678910f
-    var num2: double = 2.2345678910
+    var num2: Double = 2.2345678910
     /**
      * num1=2.2345679
      * num2=2.234567891
