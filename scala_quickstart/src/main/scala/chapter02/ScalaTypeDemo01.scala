@@ -24,17 +24,15 @@ object ScalaTypeDemo01 {
     println(f"The num is ${num1}%2.2f")
     println(raw"The num is ${num1}%2.2f")
 
-    val sql =
-      s"""
-         |select *
-         |from 
-         | student
-         |where 
-         | name = ${name}
-
-         | age > ${age}
-
-         |""".stripMargin
+    s"""
+       |select *
+       |from
+       | student
+       |where
+       | name = ${name}
+       |and
+       | age > ${age}
+       |""".stripMargin
     //这两种方法的调用都可以
     sayHi()
     sayHi
