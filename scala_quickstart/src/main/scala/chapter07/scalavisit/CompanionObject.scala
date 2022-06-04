@@ -41,3 +41,4 @@ class Person{
    */
   protected[scalavisit] val name= "jack"
 }
+
